@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:\Users\Buffalo\Desktop\ProjectD">
+        <classes>
+            <!--   <class name="TestSuites.Hotel_1SearchTests">
+                   <methods>
+                       <include name="hotelNav"/>
+                       <include name="hotelSearch"/>
+                       <include name="selectHotel"/>
+                   </methods>
+               </class> -->
+            <class name="LoginTest.Login">
+                <methods>
+                    <include name="setup"/>
+                    <include name="testSuccessLogin"/>
+                    <include name="logoutTest"/>
+                    <include name="testNegativeLogin"/>
+                    <include name="closeBrowser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
